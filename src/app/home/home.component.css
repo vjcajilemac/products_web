@@ -1,0 +1,7 @@
+.home_container{
+    min-height: calc(100vh - 80px - 60px);
+
+}
+.form_container{
+    height: 85%;
+}
