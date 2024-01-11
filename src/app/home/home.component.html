@@ -1,21 +1,27 @@
-<div class="container-fluid home_container d-flex col h-100 w-100 bg-primary">
-    <div class="d-flex row col-12 col-md-6 bg-success">
+<div class="container-fluid home_container d-flex col h-100 w-100 ">
+    <div class="d-flex row col-12 col-md-6 ">
+        <h2>Productos sumados por encryptacion</h2>
+        <div class="form_container d-flex row col-11 m-0 p-0">
+            <app-cart></app-cart>
+            
+        </div>
+        <div class="d-flex col justify-content-end w-100 mx-lg-5">
+            <h5>Suma Final:   </h5>
+            <p>$ {{products_service.getSum()}}</p>
+
+        </div>
+        
+
+
+    </div>
+
+    <div class="d-flex justify-content-end row col-12 col-md-6">
 
         <h2>Productos disponibles</h2>
-        <div class="form_container d-flex row col-12 m-0 p-0 bg-danger">
-            <form class="d-flex row col-11">
-                <p>s</p>
-                <p>s</p>
-    
-            </form>
+        <div class="form_container d-flex row col-12 m-0 p-0 ">
+            <app-products-list></app-products-list>
 
         </div>
 
     </div>
-
-    <div class="d-flex row col-12 col-md-6">
-d
-    </div>
-    
-
 </div>

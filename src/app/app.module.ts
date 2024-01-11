@@ -7,6 +7,8 @@ import { FooterComponent } from './layout/footer/footer.component';
 import { NavigationComponent } from './layout/navigation/navigation.component';
 import { SkeletonComponent } from './layout/skeleton/skeleton.component';
 import { HomeComponent } from './home/home.component';
+import { ProductsListComponent } from './products-list/products-list.component';
+import { CartComponent } from './component/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { HomeComponent } from './home/home.component';
     HomeComponent,
     FooterComponent,
     NavigationComponent,
-    SkeletonComponent
+    SkeletonComponent,
+    ProductsListComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
